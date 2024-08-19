@@ -1,0 +1,33 @@
+{
+    "Table": {
+        "AttributeDefinitions": [
+            {
+                "AttributeName": "UserID",
+                "AttributeType": "S"
+            }
+        ],
+        "TableName": "UserTable",
+        "KeySchema": [
+            {
+                "AttributeName": "UserID",
+                "KeyType": "HASH"
+            }
+        ],
+        "TableStatus": "ACTIVE",
+        "CreationDateTime": "2024-08-19T11:48:45.718000+05:30",
+        "ProvisionedThroughput": {
+            "LastDecreaseDateTime": "2024-08-19T11:58:26.339000+05:30",
+            "NumberOfDecreasesToday": 2,
+            "ReadCapacityUnits": 1,
+            "WriteCapacityUnits": 1
+        },
+        "TableSizeBytes": 158,
+        "ItemCount": 2,
+        "TableArn": "arn:aws:dynamodb:ap-south-1:982534351469:table/UserTable",
+        "TableId": "98d3096c-3b28-45ee-97de-9d431199fa1f",
+        "TableClassSummary": {
+            "TableClass": "STANDARD"
+        },
+        "DeletionProtectionEnabled": false
+    }
+}

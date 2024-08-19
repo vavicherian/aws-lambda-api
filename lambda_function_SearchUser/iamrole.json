@@ -1,0 +1,27 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "DynamoDBandLambda",
+        "RoleId": "AROA6JQ44NJW3TYV27CCE",
+        "Arn": "arn:aws:iam::982534351469:role/DynamoDBandLambda",
+        "CreateDate": "2024-08-19T07:58:29+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "lambda.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        },
+        "Description": "Allows Lambda functions to call AWS services on your behalf.",
+        "MaxSessionDuration": 3600,
+        "RoleLastUsed": {
+            "LastUsedDate": "2024-08-19T14:41:03+00:00",
+            "Region": "ap-south-1"
+        }
+    }
+}
